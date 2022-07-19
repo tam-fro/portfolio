@@ -1,14 +1,16 @@
-$(document).ready(function(){
+$(function(){
 		
 		$('.slider').bxSlider({
 	    mode: 'fade',
 		auto: true,
 		captions: true,
-		speed: 4000
+		speed: 3000
 		});
+});	
+	
+$(function(){
 		
    $('a[href^="#"]').click(function() {
-
 				var speed = 500;  
       var offset = -20;  
 
